@@ -234,7 +234,7 @@ body,
 
 /* end toggle */
 
-bio__heading {
+.bio__heading {
   font-size: var(--font-size-70);
   font-weight: var(--font-weight-bold);
 }
@@ -321,16 +321,15 @@ bio__heading {
   position: absolute;
   background-color: var(--color-box-img);
   width: 100%;
-  height: 46rem;
+  height: 35rem;
   z-index: -1;
   border-radius: 1.8rem;
   box-shadow: 2.17543px 8.7017px 38.0699px rgba(0, 0, 0, 0.15);
 }
 .bio__pic {
   width: 42.7rem;
+  height: 42rem;
 }
-
-/* end bio */
 
 .skills__list {
   display: grid;
